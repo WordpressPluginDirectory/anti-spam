@@ -50,12 +50,12 @@ class Logs extends Base {
 	/**
 	 * Logs constructor.
 	 *
-	 * @param \Wbcr_Factory466_Plugin $plugin
+	 * @param \Wbcr_Factory475_Plugin $plugin
 	 *
 	 * @author Alexander Kovalev <alex.kovalevv@gmail.com>
 	 *
 	 */
-	public function __construct( \Wbcr_Factory466_Plugin $plugin ) {
+	public function __construct( \Wbcr_Factory475_Plugin $plugin ) {
 
 		$this->menu_title                  = __( 'Error Log', 'titan-security' );
 		$this->page_menu_short_description = __( 'Plugin debug report', 'titan-security' );
