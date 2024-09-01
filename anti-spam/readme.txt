@@ -4,7 +4,7 @@ Tags: antispam, firewall, malware scanner, security, antivirus, firewall, malwar
 Requires at least: 5.6
 Tested up to: 6.6
 Requires PHP: 8.0
-Stable tag: 7.3.6
+Stable tag: 7.3.8
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -193,7 +193,7 @@ You may check out the [source code of the plugin](http://plugins.trac.wordpress.
 The plugin is pretty small and easy to read.
 
 == Changelog ==
-= 7.3.6 (17.07.2024) =
+= 7.3.8 (17.07.2024) =
 * Added: Compatibility with Wordpress 6.6
 * Fixed: Minor bugs
 

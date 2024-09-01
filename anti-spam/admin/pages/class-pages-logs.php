@@ -110,6 +110,10 @@ class Logs extends Base {
 	 * @since  6.0
 	 */
 	public function exportAction() {
+		if( !current_user_can('manage_options') ) {
+			wp_die(__('You do not have sufficient permissions to perform this action!', 'wbcr_factory_logger_000'));
+		}
+
 		require_once( WTITAN_PLUGIN_DIR . '/includes/logger/class-logger-export.php' );
 		$export = new \WBCR\Titan\Logger\Export();
 
